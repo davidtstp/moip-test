@@ -47,19 +47,19 @@ Install and include in PATH
 
 Install [Webdriver Safari extension](http://selenium-release.storage.googleapis.com/2.48/SafariDriver.safariextz).
 
-### Run for Checkbox tests###
+### Run for Customer tests###
 ```shell
 bundle exec cucumber -p dev --tags @customer #Chrome
 bundle exec cucumber -p firefox -p dev --tags @customer #Firefox
 bundle exec cucumber -p poltergeist -p dev --tags @customer #Poltergeist
 ```
-### Run for Windows tests###
+### Run for Order tests###
 ```shell
 bundle exec cucumber -p dev --tags @order #Chrome
 bundle exec cucumber -p firefox -p dev --tags @order #Firefox
 bundle exec cucumber -p poltergeist -p dev --tags @order #Poltergeist
 ```
-### Run for Api tests###
+### Run for Payment tests###
 ```shell
 bundle exec cucumber -p dev --tags @payment #Chrome
 bundle exec cucumber -p firefox -p dev --tags @payment #Firefox
