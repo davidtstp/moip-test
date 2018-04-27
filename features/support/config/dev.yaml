@@ -1,0 +1,104 @@
+url_customer: https://sandbox.moip.com.br/v2/customers
+url_order: https://sandbox.moip.com.br/v2/orders
+url_sandbox: https://connect-sandbox.moip.com.br/login
+token: Basic WFNCWlQ2QkNBVk1JWkxZSlhHSThDTDE1QlU5VFVYQTk6UVZaRUNIMUJCVUZHUEZDQTY3T0FNVURORzRWRjM5WDZIUkdKOFpWSA==
+
+customer: {
+         "ownId":"74102707565",
+         "fullname":"Gustavo Vicente Gomes",
+         "email":"david.tstp+74102707565@gmail.com",
+         "birthDate":"1990-4-09",
+         "taxDocument":{
+            "type":"CPF",
+            "number":"74102707565"
+         },
+         "phone":{
+            "countryCode":"55",
+            "areaCode":"11",
+            "number":"35454863"
+         },
+         "shippingAddress":{
+            "city":"Diadema",
+            "district":"Centro",
+            "street":"Rua Mogi Mirim",
+            "streetNumber":"713",
+            "zipCode":"09920100",
+            "state":"SP",
+            "country":"BRA"
+         },
+         "fundingInstrument":{
+            "method":"CREDIT_CARD",
+            "creditCard":{
+               "expirationMonth":"01",
+               "expirationYear":"20",
+               "number":"4481433090360135",
+               "cvc":"879",
+               "holder":{
+                  "fullname":"Gustavo Vicente Gomes",
+                  "birthdate":"1990-04-09",
+                  "taxDocument":{
+                     "type":"CPF",
+                     "number":"74102707565"
+                  },
+                  "billingAddress":{
+                    "city":"Diadema",
+                    "district":"Centro",
+                    "street":"Rua Mogi Mirim",
+                    "streetNumber":"713",
+                    "zipCode":"09920100",
+                    "state":"SP",
+                    "country":"BRA"
+                  },
+                  "phone":{
+                     "countryCode":"55",
+                     "areaCode":"11",
+                     "number":"35454863"
+                  }
+               }
+            }
+         }
+      }
+
+order_json: {
+     "ownId":"Meu_Pedido",
+     "amount":{
+        "currency":"BRL",
+        "subtotals":{
+           "shipping":1500
+        }
+     },
+     "items":[
+        {
+           "product":"Descrição do pedido",
+           "category":"CLOTHING",
+           "quantity":1,
+           "detail":"Camiseta estampada branca",
+           "price":9500
+        }
+     ],
+     "customer":{
+        "id":"",
+        "ownId":"74102707565",
+        "fullname":"Gustavo Vicente Gomes",
+        "email":"david.tstp+74102707565@gmail.com",
+        "birthDate":"1990-4-09",
+        "taxDocument":{
+           "type":"CPF",
+           "number":"74102707565"
+        },
+        "phone":{
+           "countryCode":"55",
+           "areaCode":"11",
+           "number":"35454863"
+        },
+        "shippingAddress":{
+           "city":"Diadema",
+           "district":"Centro",
+           "street":"Rua Mogi Mirim",
+           "streetNumber":"713",
+           "zipCode":"09920100",
+           "state":"SP",
+           "country":"BRA"
+        }
+     }
+  }
